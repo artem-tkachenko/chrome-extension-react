@@ -8,8 +8,8 @@
         "url": "https://github.com/artem-tkachenko/chrome-extension-react.git"
     },
     "scripts": {
-        "build": "cross-env NODE_ENV=development webpack --watch --config webpack.config ",
-        "start": "node utils/webserver.js"
+        "build:dev": "cross-env NODE_ENV=development webpack --watch --config webpack.config ",
+        "build:prod": "cross-env NODE_ENV=production webpack --config webpack.config "
     },
     "dependencies": {
         "@hot-loader/react-dom": "^16.13.0",
@@ -23,6 +23,8 @@
         "@babel/plugin-proposal-class-properties": "^7.8.3",
         "@babel/preset-env": "^7.9.0",
         "@babel/preset-react": "^7.9.4",
+        "@types/chrome": "0.0.104",
+        "@types/react": "^16.9.26",
         "babel-eslint": "^10.1.0",
         "babel-loader": "^8.1.0",
         "babel-preset-react-app": "^9.1.2",
