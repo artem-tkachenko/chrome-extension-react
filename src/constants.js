@@ -1,0 +1,13 @@
+export const MESSAGES = {
+    SUBMIT_DOMAIN: 'SUBMIT_DOMAIN',
+    SUBMIT_DOMAIN_RESPONSE: 'SUBMIT_DOMAIN_RESPONSE'
+};
+
+export const RESPONSE_CODES = {
+    SUCCESS: 'SUCCESS',
+    FAILURE: 'FAILURE',
+};
+
+export const FETCH = {
+    SUBMIT_DOMAIN: 'SUBMIT_DOMAIN'
+};
